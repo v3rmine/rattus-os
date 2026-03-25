@@ -2,6 +2,16 @@
 
 This repository is meant to be a template for building your own custom [bootc](https://github.com/bootc-dev/bootc) image. This template is the recommended way to make customizations to any image published by the Universal Blue Project.
 
+# Quick notes / TODOLIST
+
+- Use [silverblue-main](https://github.com/ublue-os/main) as base image (based on fedora silverblue with minimal things) keep nvidia deactived (`BUILD_NVIDIA=n`) 
+- [Bluefin](https://github.com/ublue-os/bluefin) is a simple base to use as examples for customisation (tailscale, starship, restic, zsh) with [additional brew software](https://github.com/projectbluefin/common)
+- [Bazzite](https://github.com/ublue-os/bazzite) is the most customized with a lot of things to take from (rocm opencl/hip runtimes, hardware accelerated h264, distrobox (need my fork), ujust scripts, automated duperemove, opentabletdriver, topgrade, VRR & Fractional Scaling, Custom menu, GNOME Hanabi)
+- Flatpaks: Distroshelf, GNOME Extension manager, Flatseal, Warehouse, Gear level, Bottles, Déjà Dup Backups, Easy Effects, Nook desktop, Zen, Tuner, Thunderbird
+  - Using ujust: VLC, Vesktop, Trayscale, Syncthingy, qBittorrent, PrusaSlicer, OrcaSlicer, Protontricks, Protonplus, Peazip, Obsidian, OBS Studio, Nicotine+, MusicBrainz Picard, mpv, Moonlight, LRCGET, LibreOffice, KiCad, JDownloader, FreeFileSync, FontForge, Baazar
+- Extensions: Hanabi with Clapper, User Themes, Restart To, Logo Menu, Hot Edge, Caffeine, Blur my Shell, AppIndicator and KStatusNotifier Support, Just Perfection, PaperWM, Window title is back, 
+- Warning for secureboot https://github.com/ublue-os/bazzite/tree/main?tab=readme-ov-file#secure-boot
+
 # Community
 
 If you have questions about this template after following the instructions, try the following spaces:
